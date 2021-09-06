@@ -1,3 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-card {
+  margin-top: 7%;
+}
+.card-title {
+  color: #3C4536;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: auto;
+}
+
+.card-text-price {
+  color: #282c34;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: auto;
+
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-shop {
+  background-color: #000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7rem;
+  border-radius: 9px;
+  margin-top: auto;
+}
+
 .App {
   text-align: center;
 }

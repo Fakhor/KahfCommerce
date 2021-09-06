@@ -20,7 +20,7 @@ const data = {
         {
             id: 2,
             img: img2,
-            title: 'ENERGIZING PACK FACEWASH, BODY WASH, AND DEODORANT Watermelon',
+            title: 'ENERGIZING PACK FACEWASH, BODY WASH, AND DEODORANT',
             desc : '',
             price : 98300,
         },
@@ -28,7 +28,7 @@ const data = {
         {
             id: 3,
             img: img3,
-            title: 'KAHF ESSENTIAL PROTECTION KIT',
+            title: 'KAHF DAILY PROTECTION KIT ENERGIZING SERIES',
             desc : '',
             price : 67000,
         },
