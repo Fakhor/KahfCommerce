@@ -1,9 +1,12 @@
 import React from "react";
-import "./App.css";
+import "./Home.css";
 import Itemcard from "./Itemcard";
 import data from "./data";
+import Cart from "./Cart";
+import { CartProvider } from "react-use-cart";
+import { Fragment } from "react";
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
       <section className="main-card py-4 container">
@@ -21,8 +24,12 @@ const Home = () => {
             )
           })}
         </div>
+        <Fragment>
+          <CartProvider>
+            <Cart />
+          </CartProvider>
+        </Fragment>
       </section>
     </>
   );
 };
-export default Home;

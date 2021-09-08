@@ -1,0 +1,69 @@
+/* Icons */
+.fa-shopping-cart{
+  margin-right: 0.5rem;
+  color: #f2f2f2;
+}
+
+.fa-heart{
+  margin-right: 0.5rem;
+  color: #f2f2f2;
+}
+
+.fa-user{
+  margin-right: 0.5rem;
+  color: #f2f2f2;
+}
+
+.text-promo {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  color: #fff;
+  display: inline-block;
+  float: none;
+  font-size: 12px;
+}
+
+.topnav {
+  background-color: #3C4536;
+  overflow: hidden;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 7px 16px;
+text-decoration: none;
+font-size: 1rem;
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 7px 16px;
+text-decoration: none;
+font-size: 1rem;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #f2f2f2;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {  
+  color: #f2f2f2;
+}
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}

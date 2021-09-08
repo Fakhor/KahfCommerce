@@ -1,4 +1,4 @@
-export const MenuItems = [
+export const TopMenuItems = [
     {
         title: 'HOME',
         url: '#',
@@ -6,22 +6,22 @@ export const MenuItems = [
     },
     {
         title: 'SHOP',
-        url: '/shop',
+        url: '#',
         cName: 'nav-links'
     },
     {
         title: 'BRAND',
-        url: '/brand',
+        url: '#',
         cName: 'nav-links'
     },
     {
         title: 'KAHF PROGRAM',
-        url: '/kahfprogram',
+        url: '#',
         cName: 'nav-links'
     },
     {
         title: 'DISCOVERY',
-        url: '/discovery',
+        url: '#',
         cName: 'nav-links'
     },
 
