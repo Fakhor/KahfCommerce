@@ -10,8 +10,6 @@ import { Shop } from "./components/Pages/Shop";
 import { KahfProgram } from "./components/Pages/KahfProgram";
 import { Brand } from "./components/Pages/Brand";
 import { Discovery } from "./components/Pages/Discovery";
-import { CartProvider } from "react-use-cart";
-import Cart from "./Cart";
 import { CartShop } from "./components/Page/CartShop";
 
 function App() {
