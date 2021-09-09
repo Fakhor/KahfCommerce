@@ -2,8 +2,12 @@ import React from "react";
 
 export const Discovery = () => {
   return (
-    <div>
-      <h1>Discovery</h1>
-    </div>
+    <>
+      <section className="main-card container">
+        <div className="justify-content-center">
+          <h1>Discovery</h1>
+        </div>
+      </section>
+    </>
   );
 };

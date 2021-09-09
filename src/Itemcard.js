@@ -10,10 +10,10 @@ const Itemcard = (props) => {
         <img src={props.img} class="card-img-top img-fluid" />
         <div class="card-body text-center">
           <h5 class="card-title">{props.title}</h5>
-          <h5 class="card-text-price">Rp. {props.price}</h5>
-          <p class="card-text-desc">{props.desc}</p>
-          <button class="btn-shop mt-auto mx-auto" onClick={() => addItem(props.item)}>
-            ADD TO CART
+          <h5 class="card-text">Rp. {props.price}</h5>
+          <p class="card-text">{props.desc}</p>
+          <button class="btn btn-success" onClick={addItem(props.item)}>
+            Add to Cart
           </button>
         </div>
       </div>

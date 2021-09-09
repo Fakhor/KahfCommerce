@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Itemcard from "./Itemcard";
-import data from "./exdata";
+import data from "./data";
 
 const Home = () => {
   return (

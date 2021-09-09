@@ -2,9 +2,8 @@ import React from "react";
 import "./Home.css";
 import Itemcard from "./Itemcard";
 import data from "./data";
-import Cart from "./Cart";
+import Cart from "./Cart.js";
 import { CartProvider } from "react-use-cart";
-import { Fragment } from "react";
 
 export const Home = () => {
   return (
@@ -24,11 +23,6 @@ export const Home = () => {
             )
           })}
         </div>
-        <Fragment>
-          <CartProvider>
-            <Cart />
-          </CartProvider>
-        </Fragment>
       </section>
     </>
   );

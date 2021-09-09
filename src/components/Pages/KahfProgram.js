@@ -2,8 +2,12 @@ import React from "react";
 
 export const KahfProgram = () => {
   return (
-    <div>
-      <h1>KahfProgram</h1>
-    </div>
+    <>
+      <section className="main-card container">
+        <div className="justify-content-center">
+          <h1>Kahf Program</h1>
+        </div>
+      </section>
+    </>
   );
 };
